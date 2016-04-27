@@ -9,13 +9,13 @@ import java.io.InputStreamReader;
 
 public class BinarySearch {
 
-    private Double[] array;
+    private int[] array;
 
-    public BinarySearch(Double[] array) {
+    public BinarySearch(int[] array) {
         this.array = array;
     }
 
-    public int find(Double x) {
+    public int find(int x) {
         int i = -1;
         if (this.array != null) {
             int low = 0, high = this.array.length, mid;
