@@ -1,0 +1,2 @@
+%javapath%javac HelloWorld.java
+%javapath%java HelloWorld.class
